@@ -1,0 +1,119 @@
+@media screen and (max-width: 360px) {
+    body.body {
+        background-image: linear-gradient(180deg, #8BC6EC 0%, #9599E2 100%);
+        background-color: hsl(212, 45%, 89%);
+        margin: 0;
+        padding: 0;
+    }
+    div{
+        font-family: Outfit;
+        position: absolute;
+    }
+    .QrContainer {
+        display: flex;
+        margin: 1.8rem;
+        padding: 15px 10px 15px 10px;
+        border-radius: 2rem;
+        background-color: hsl(0, 0%, 100%);
+        width: 300px;
+        height: 480px;
+        box-shadow: .2rem .2rem .5rem black;
+    }
+    #qrcode {
+        position: relative;
+        top: 6px;
+        left: 10px;
+        border-radius: .8rem;
+        width: 280px;
+        height: 280px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 16pt;
+        position: absolute;
+        top: 335px;
+        left: 45px;
+        width: 270px;
+        text-align: center;
+    }
+    .textcontent{
+        font-weight: 400;
+        font-size: 12pt;
+        position: absolute;
+        top: 400px;
+        left: 45px;
+        width: 270px;
+        text-align: center;
+    }
+    .attribution{
+        display: flex;   
+        justify-content: space-around;
+        width: 290px;
+        position: absolute;
+        top: 600px;
+        left: 40px;
+    } 
+}
+@media screen and (min-width: 361px) {
+    body.body {
+        background-image: linear-gradient(180deg, #8BC6EC 0%, #9599E2 100%);
+        background-color: hsl(212, 45%, 89%);
+        margin: 0;
+        padding: 0;
+    }
+    div{
+        font-family: Outfit;
+        position: absolute;
+    }
+    .QrContainer {
+        display: flex;
+        margin: 5% 70% 35% 35%;
+        padding: 15px 10px 15px 10px;
+        border-radius: 2rem;
+        background-color: hsl(0, 0%, 100%);
+        width: 300px;
+        height: 480px;
+        box-shadow:  .2rem .2rem .5rem black;
+    }
+    #qrcode {
+        position: relative;
+        top: 6px;
+        left: 10px;
+        border-radius: .8rem;
+        width: 280px;
+        height: 280px;
+    }
+    .information{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 16pt;
+        padding: 15px 10px 15px 10px;
+        position: relative;
+        top: 20px;
+        left: -140px;
+        width: 270px;
+        text-align: center;
+    }
+    .textcontent{
+        font-weight: 400;
+        font-size: 12pt;
+        position: relative;
+        top: 120px;
+        left: -410px;
+        width: 250px;
+        text-align: center;
+    }
+    .attribution{
+        display: flex;   
+        justify-content: space-around;
+        width: 290px;
+        position: absolute;
+        top: 95%;
+        left: 37%;
+    } 
+}
